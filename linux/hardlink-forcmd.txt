@@ -1,0 +1,9 @@
+whoami
+cd 
+ll
+ls -ltr
+ls
+hostname
+vim
+vi
+
