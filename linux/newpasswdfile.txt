@@ -1,0 +1,29 @@
+root Nixhal root
+bin  Nixhal  bin
+daemon  Nixhal  daemon
+adm  Nixhal  adm
+lp  Nixhal  lp
+sync  Nixhal  sync
+shutdown  Nixhal  shutdown
+halt  Nixhal  halt
+mail  Nixhal  mail
+operator  Nixhal  operator
+games  Nixhal  games
+ftp  Nixhal  FTP  User
+nobody  Nixhal  Kernel  Overflow  User
+unbound  Nixhal  Unbound  DNS  resolver
+systemd-coredump  Nixhal  systemd  Core  Dumper
+dbus  Nixhal  System  message  bus
+polkitd  Nixhal  User  for  polkitd
+libstoragemgmt  Nixhal  daemon  account  for  libstoragemgmt
+cockpit-ws  Nixhal  User  for  cockpit  web  service
+tss  Nixhal  Account  used  for  TPM  access
+sssd  Nixhal  User  for  sssd
+setroubleshoot  Nixhal
+sshd  Nixhal  Privilege-separated  SSH
+chrony  Nixhal
+tcpdump  Nixhal
+systemd-oom  Nixhal  systemd  Userspace  OOM  Killer
+systemd-resolve  Nixhal  systemd  Resolver
+vagrant  Nixhal
+vboxadd  Nixhal
