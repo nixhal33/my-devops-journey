@@ -1,0 +1,7 @@
+total 20
+   43811 -rw-r--r--. 1 vagrant vagrant  42 Jun 13 06:51 hardlink-forcmd.txt
+67169571 -rw-r--r--. 1 vagrant vagrant 668 Jun 13 10:19 passwdfield.txt
+67169572 -rw-r--r--. 1 vagrant vagrant 852 Jun 13 10:34 newpasswdfile.txt
+67169573 -rw-r--r--. 1 vagrant vagrant 121 Jun 13 10:53 backup-wwe.txt
+   54656 -rw-r--r--  1 vagrant vagrant 257 Jun 14 07:08 wwe-superstars.txt
+   54657 -rw-r--r--  1 vagrant vagrant   0 Jun 14 07:11 uniqcmdlist.docx

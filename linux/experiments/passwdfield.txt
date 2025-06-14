@@ -12,17 +12,14 @@ games 12 games
 ftp 14 FTP User
 nobody 65534 Kernel Overflow User
 unbound 999 Unbound DNS resolver
-systemd-coredump 998 systemd Core Dumper
 dbus 81 System message bus
 polkitd 997 User for polkitd
 libstoragemgmt 996 daemon account for libstoragemgmt
 cockpit-ws 995 User for cockpit web service
 tss 59 Account used for TPM access
 sssd 993 User for sssd
-setroubleshoot 992 
 sshd 74 Privilege-separated SSH
-chrony 991 
-tcpdump 72 
+ 991 
 systemd-oom 985 systemd Userspace OOM Killer
 systemd-resolve 984 systemd Resolver
 vagrant 1000 
