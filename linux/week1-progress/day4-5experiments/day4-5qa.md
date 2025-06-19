@@ -1,4 +1,3 @@
-
 1. What does the command chmod 750 script.sh do?
 = C) Gives full access to the owner, read/execute to group, no access to others
 
@@ -43,4 +42,4 @@ chmod u=rwx,g=rw,o= file1
 
 
 10. Create a 100-byte file called placeholder.txt using one command.
-= truncate -s 100 placeholder.txt
+= truncate -s 100 placeholder.txt 
