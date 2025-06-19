@@ -1,60 +1,54 @@
-This will contain both practical and conceptual of 5/5 questions each and I will solve them according to my understanding and I will even mention If I fumble somewhere right in the answer section next to the answer.
+Day 2 Review – Questions
 
-1. What does the following permission -rwxr-x--x mean?
-= D) None of the above cuz user has full access,whereas group and others have only execuatble permission.
+(Write the correct letter with explanation if you can!)
 
-2. Which command adds a user terraform to an existing group devops?
-= B) usermod -aG devops terraform
+1. What does the command cp -r folder1 folder2 do?
+= B) Copies the contents of folder1 into folder2 recursively ie: copy the file recursively w th the folder inside the folder2
 
-3. Which of the following best describes the sudo command?
-= B) It allows a user to run commands with elevated privileges
+2. Which of the following commands correctly moves file.txt from /home/user1 to /tmp directory?
+= B) mv /home/user1/file.txt /tmp/
 
-4. After editing /etc/sudoers, you see a syntax error. What should you do?
-= C) Press e when prompted to re-edit
+3. What does the file command do?
+= C) Displays the type of file (text, directory, binary, etc.)
 
-5. What does chmod 750 filename mean?
-= B) Owner has full access, group has read and execute, others have no access
+4. How can you list hidden files in a directory using ls?
+= C) ls -a
 
-🔧 Short Practical (Write the exact commands)
-
-6. Create a user named jenkins and assign it to a new group ci.
-= 251  tail -5 /etc/passwd
-  252  clear
-  253  sudo useradd jenkins
-  254  sudo groupadd ci
-  255  grep ci /etc/group
-  256  clear
-  257  usermod -aG ci jenkins 
-  258  sudo usermod -aG ci jenkins 
-  259  cat /etc/group -----> practiced my myself.
-  output:------> ci:x:1007:jenkins
+5. Which of the following is the correct meaning of the wc -l myfile.txt command?
+= A) Count total lines in myfile.txt
 
 
+🔧 Short Practical – Do and paste your exact commands and output snippets:
 
-7. Change ownership of a directory deploy to user ansible and group devops, including all sub-files and directories.
-= mkdir -p deploy/androidapps(1..5)
-  267  mkdir -p deploy/androidapps{1..5}
-  268  ll
-  269  cat deploy/
-  270  ls -l deploy/
-  271  clear
-  272  ll
-  273  sudo chown -R ansible:devops deploy/
-  274  ll
-  275  ll deploy/
+6. Create a directory practice, go inside it, and create three empty files named a.txt, b.txt, c.txt.
+= mkdir practice && cd practice && touch {a..c}.txt
+ 
 
-	output: ll deploy/ 
-	drwxr-xr-x 2 ansible devops 6 Jun 19 09:57 androidapps1
-	drwxr-xr-x 2 ansible devops 6 Jun 19 09:57 androidapps2
-	drwxr-xr-x 2 ansible devops 6 Jun 19 09:57 androidapps3
-	drwxr-xr-x 2 ansible devops 6 Jun 19 09:57 androidapps4
-	drwxr-xr-x 2 ansible devops 6 Jun 19 09:57 androidapps5
+7. Create a symbolic link named link_to_a that points to a.txt.
+= ln -s a.txt link_to_a
+  output : 
+	-rw-r--r-- 1 vagrant vagrant 0 Jun 19 11:02 a.txt
+	-rw-r--r-- 1 vagrant vagrant 0 Jun 19 11:02 b.txt
+	-rw-r--r-- 1 vagrant vagrant 0 Jun 19 11:02 c.txt
+	lrwxrwxrwx 1 vagrant vagrant 5 Jun 19 11:03 link_to_a -> a.txt
 
 
 
-8. Download a file from this URL and save it as myrpm.rpm:
-👉 https://rpmfind.net/linux/centos/9-stream/AppStream/x86_64/os/Packages/tree-1.8.0-10.el9.x86_64.rpm
 
-9. Use yum to install the httpd package and start the service.
+8. Move b.txt to a new folder called archive, which you create inside practice.
+= mv b.txt archive
+ full output: [vagrant@centos archive]$ pwd
+/home/vagrant/my-devops-journey/linux/week1-progress/day2-experiments/practice/archive
+[vagrant@centos archive]$ ll
+total 8
+-rw-r--r-- 1 vagrant vagrant  9 Jun 19 11:06 a.txt
+-rw-r--r-- 1 vagrant vagrant 20 Jun 19 11:08 b.txt
 
-10. Give passwordless sudo access to the user ansible without modifying /etc/sudoers directly. (Hint: use a file in /etc/sudoers.d/)
+
+9. Use a command to show only the first 2 lines of /etc/passwd.
+= head -2 /etc/passwd
+
+10. Display how many words, lines, and characters are in your a.txt file (combine all three wc options).
+= wc a.txt and for different one is wc -lcw b.txt
+   1  4 20 b.txt
+
