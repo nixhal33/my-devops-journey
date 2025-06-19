@@ -18,8 +18,39 @@ This will contain both practical and conceptual of 5/5 questions each and I will
 🔧 Short Practical (Write the exact commands)
 
 6. Create a user named jenkins and assign it to a new group ci.
+= 251  tail -5 /etc/passwd
+  252  clear
+  253  sudo useradd jenkins
+  254  sudo groupadd ci
+  255  grep ci /etc/group
+  256  clear
+  257  usermod -aG ci jenkins 
+  258  sudo usermod -aG ci jenkins 
+  259  cat /etc/group -----> practiced my myself.
+  output:------> ci:x:1007:jenkins
+
+
 
 7. Change ownership of a directory deploy to user ansible and group devops, including all sub-files and directories.
+= mkdir -p deploy/androidapps(1..5)
+  267  mkdir -p deploy/androidapps{1..5}
+  268  ll
+  269  cat deploy/
+  270  ls -l deploy/
+  271  clear
+  272  ll
+  273  sudo chown -R ansible:devops deploy/
+  274  ll
+  275  ll deploy/
+
+	output: ll deploy/ 
+	drwxr-xr-x 2 ansible devops 6 Jun 19 09:57 androidapps1
+	drwxr-xr-x 2 ansible devops 6 Jun 19 09:57 androidapps2
+	drwxr-xr-x 2 ansible devops 6 Jun 19 09:57 androidapps3
+	drwxr-xr-x 2 ansible devops 6 Jun 19 09:57 androidapps4
+	drwxr-xr-x 2 ansible devops 6 Jun 19 09:57 androidapps5
+
+
 
 8. Download a file from this URL and save it as myrpm.rpm:
 👉 https://rpmfind.net/linux/centos/9-stream/AppStream/x86_64/os/Packages/tree-1.8.0-10.el9.x86_64.rpm
