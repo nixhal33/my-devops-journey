@@ -10,8 +10,8 @@ Note: All the questions have been taken and self practised with the help of AI a
 
 
 3.🏷️  Display a long listing (ls -l) of the /bin directory, but only show entries that start with the letter g.
-= ls -l /bin/g* ----> i fumbled here a little hoping grep would be the best command but it wa
-s just a simple command.
+= ls -l /bin/g* ----> (i fumbled here a little hoping grep would be the best command but it wa
+s just a simple command.)
 
 
 4.🔂 Using a single command, create a folder mydir, cd into it, and create a file hello.txt inside it.
