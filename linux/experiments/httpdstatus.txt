@@ -1,0 +1,16 @@
+○ httpd.service - The Apache HTTP Server
+     Loaded: loaded (/usr/lib/systemd/system/httpd.service; enabled; preset: disabled)
+     Active: inactive (dead) since Fri 2025-06-20 14:07:13 UTC; 2min 55s ago
+   Duration: 1h 27min 9.937s
+       Docs: man:httpd.service(8)
+    Process: 4575 ExecStart=/usr/sbin/httpd $OPTIONS -DFOREGROUND (code=exited, status=0/SUCCESS)
+   Main PID: 4575 (code=exited, status=0/SUCCESS)
+     Status: "Total requests: 0; Idle/Busy workers 100/0;Requests/sec: 0; Bytes served/sec:   0 B/sec"
+        CPU: 4.337s
+
+Jun 20 12:40:02 centos.devops.in systemd[1]: Starting The Apache HTTP Server...
+Jun 20 12:40:03 centos.devops.in httpd[4575]: AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using centos.devops.in. Set the 'ServerName' directive globally to suppress this message
+Jun 20 12:40:03 centos.devops.in httpd[4575]: Server configured, listening on: port 80
+Jun 20 12:40:03 centos.devops.in systemd[1]: Started The Apache HTTP Server.
+Jun 20 14:07:13 centos.devops.in systemd[1]: httpd.service: Deactivated successfully.
+Jun 20 14:07:13 centos.devops.in systemd[1]: httpd.service: Consumed 4.337s CPU time.
