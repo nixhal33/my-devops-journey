@@ -1,0 +1,35 @@
+[Thu Jun 19 10:14:51.864954 2025] [suexec:notice] [pid 5669:tid 5669] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using centos.devops.in. Set the 'ServerName' directive globally to suppress this message
+[Thu Jun 19 10:14:52.031114 2025] [lbmethod_heartbeat:notice] [pid 5669:tid 5669] AH02282: No slotmem from mod_heartmonitor
+[Thu Jun 19 10:14:52.039847 2025] [mpm_event:notice] [pid 5669:tid 5669] AH00489: Apache/2.4.62 (CentOS Stream) configured -- resuming normal operations
+[Thu Jun 19 10:14:52.039904 2025] [core:notice] [pid 5669:tid 5669] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Thu Jun 19 14:10:10.460960 2025] [mpm_event:notice] [pid 5669:tid 5669] AH00492: caught SIGWINCH, shutting down gracefully
+[Fri Jun 20 12:40:03.168241 2025] [suexec:notice] [pid 4575:tid 4575] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using centos.devops.in. Set the 'ServerName' directive globally to suppress this message
+[Fri Jun 20 12:40:03.981674 2025] [lbmethod_heartbeat:notice] [pid 4575:tid 4575] AH02282: No slotmem from mod_heartmonitor
+[Fri Jun 20 12:40:03.986373 2025] [mpm_event:notice] [pid 4575:tid 4575] AH00489: Apache/2.4.62 (CentOS Stream) configured -- resuming normal operations
+[Fri Jun 20 12:40:03.986451 2025] [core:notice] [pid 4575:tid 4575] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Fri Jun 20 14:07:13.906627 2025] [mpm_event:notice] [pid 4575:tid 4575] AH00491: caught SIGTERM, shutting down
+[Fri Jun 20 14:10:19.638290 2025] [suexec:notice] [pid 6177:tid 6177] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using centos.devops.in. Set the 'ServerName' directive globally to suppress this message
+[Fri Jun 20 14:10:20.666992 2025] [lbmethod_heartbeat:notice] [pid 6177:tid 6177] AH02282: No slotmem from mod_heartmonitor
+[Fri Jun 20 14:10:20.677191 2025] [mpm_event:notice] [pid 6177:tid 6177] AH00489: Apache/2.4.62 (CentOS Stream) configured -- resuming normal operations
+[Fri Jun 20 14:10:20.677252 2025] [core:notice] [pid 6177:tid 6177] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Fri Jun 20 14:12:56.906802 2025] [suexec:notice] [pid 6391:tid 6391] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using centos.devops.in. Set the 'ServerName' directive globally to suppress this message
+[Fri Jun 20 14:12:57.964161 2025] [lbmethod_heartbeat:notice] [pid 6391:tid 6391] AH02282: No slotmem from mod_heartmonitor
+[Fri Jun 20 14:12:57.967296 2025] [core:warn] [pid 6391:tid 6391] AH00098: pid file /etc/httpd/run/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Jun 20 14:12:57.974640 2025] [mpm_event:notice] [pid 6391:tid 6391] AH00489: Apache/2.4.62 (CentOS Stream) configured -- resuming normal operations
+[Fri Jun 20 14:12:57.974735 2025] [core:notice] [pid 6391:tid 6391] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Fri Jun 20 14:26:31.402673 2025] [suexec:notice] [pid 6740:tid 6740] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using centos.devops.in. Set the 'ServerName' directive globally to suppress this message
+[Fri Jun 20 14:26:32.471895 2025] [lbmethod_heartbeat:notice] [pid 6740:tid 6740] AH02282: No slotmem from mod_heartmonitor
+[Fri Jun 20 14:26:32.474365 2025] [core:warn] [pid 6740:tid 6740] AH00098: pid file /etc/httpd/run/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Jun 20 14:26:32.486041 2025] [mpm_event:notice] [pid 6740:tid 6740] AH00489: Apache/2.4.62 (CentOS Stream) configured -- resuming normal operations
+[Fri Jun 20 14:26:32.486135 2025] [core:notice] [pid 6740:tid 6740] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Fri Jun 20 14:26:48.122877 2025] [mpm_event:notice] [pid 6740:tid 6740] AH00491: caught SIGTERM, shutting down
+[Fri Jun 20 14:26:53.311159 2025] [suexec:notice] [pid 6933:tid 6933] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using centos.devops.in. Set the 'ServerName' directive globally to suppress this message
+[Fri Jun 20 14:26:53.479905 2025] [lbmethod_heartbeat:notice] [pid 6933:tid 6933] AH02282: No slotmem from mod_heartmonitor
+[Fri Jun 20 14:26:53.491721 2025] [mpm_event:notice] [pid 6933:tid 6933] AH00489: Apache/2.4.62 (CentOS Stream) configured -- resuming normal operations
+[Fri Jun 20 14:26:53.494755 2025] [core:notice] [pid 6933:tid 6933] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
