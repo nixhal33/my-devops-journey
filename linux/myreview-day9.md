@@ -37,6 +37,12 @@ Thanks for reading — stay tuned for tomorrow as I set up my first multi-VM Vag
 
 If you are working on the same thing and need help or have problem with my repo or error in my works then please feel free to connect with me. I take all positive and negative feedbacks.
 
+To connect with me:
+🔗 LinkedIn: [www.linkedin.com/nischal-koirala-174066323] 
+
+🐙 GitHub: [www.github.com/nixhal33/my-devops-journey]
+
+ 🐦 X: [www.x.com/nischalkoiralaa]
 
 
 #Vagrant #Linux #DevOps #Virtualization #LearningInPublic #Productivity #CareerGrowth #OpenToWork #MentalHealthMatters
